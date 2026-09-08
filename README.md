@@ -128,24 +128,23 @@ Our research benchmarked three lightweight, edge-compatible architectures on **P
 
 ## 👨‍💻 My Roles & Contributions
 
-As the **Team Leader**, I supervised the entire research lifecycle, managed technical code quality, and directed the construction of the scientific paper under the mentorship of our university lecturer:
+As the **Team Leader**, I drove the project from initial conceptualization to formal publication under the mentorship of our university lecturer:
 
-### 1. Dataset Acquisition & Institutional Licensing
-- Took the initiative to identify the internationally recognized **OULU-NPU** mobile presentation attack dataset as the optimal evaluation benchmark for real-world lighting variations.
-- Formally contacted and corresponded with the **University of Oulu (CMVS, Finland)** to secure official academic permission and the End User License Agreement (EULA) required for our research experiments.
+### 1. System Conceptualization & Architecture
+- Conceptualized the two-stage biometric authentication framework designed specifically to counter presentation attacks under harsh ambient illumination variations.
+- Established the mathematical boundaries between deep pixel-wise liveness detection and downstream ArcFace angular identity verification.
 
-### 2. Lecturer Mentorship & Research Supervision
-- Collaborated closely under the continuous guidance of our university lecturer, translating theoretical academic research principles into disciplined, reproducible experimental methodology.
-- Directed the technical design of the two-stage biometric verification architecture, establishing the boundaries between liveness evaluation and identity matching.
+### 2. Dataset Acquisition & Institutional Licensing
+- Took the initiative to identify the internationally recognized **OULU-NPU** mobile presentation attack dataset as our rigorous evaluation benchmark.
+- Formally corresponded with the **University of Oulu (CMVS, Finland)** to secure official academic permissions and the End User License Agreement (EULA).
 
-### 3. Codebase Auditing & Pipeline Refactoring
-- Audited the software pipeline to identify and correct architectural oversights—specifically resolving an issue where the team's initial testing script bypassed the anti-spoofing model entirely.
-- Refactored the monolithic training and inference scripts into modular, production-grade components with proper parameterization, exception handling, and real-time HUD telemetry.
+### 3. Technical Supervision & Codebase Auditing
+- Supervised the team's coding workflow, audited the software pipeline, and resolved critical defects—specifically rectifying an issue where initial tests omitted the anti-spoofing liveness gate.
+- Refactored the monolithic training and inference scripts into modular, production-grade components with proper parameterization and real-time HUD telemetry.
 
 ### 4. Research Paper Architecture & Writing
 - Led the conceptualization, structuring, and writing of the formal research paper: authored the **Methodology**, **System Implementation**, **Experimental Results**, and **Discussion** sections.
-- Formulated the experimental setup comparing ShuffleNetV2, MobileNetV2, and EfficientNet-B0 under the OULU-NPU Protocol 4 benchmark.
-- Analyzed and articulated the empirical trade-offs between model parameter scale, overfitting risks, and edge deployment feasibility.
+- Formulated the experimental benchmark comparing ShuffleNetV2, MobileNetV2, and EfficientNet-B0 on Protocol 4, analyzing error rates (APCER, BPCER, ACER) and edge deployment trade-offs.
 
 ---
 
