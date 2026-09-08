@@ -1,0 +1,48 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.whl
+
+# Virtual Environments
+RM3.10/
+TF3.10/
+venv/
+env/
+.venv/
+
+# Large Datasets & Archives (> 50MB)
+*.zip
+*.tar.gz
+dataset_lighting/
+unextracted_lighting/
+unextracted_wajah/
+
+# Heavy Video Evaluation Files
+Video/
+*.mp4
+*.avi
+*.mov
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Sub-repositories & Team scratch folders
+Research_FAS/
+HASAN/
+HASAN2/
+HASAN3/
+HASAN4/
+
+# Temporary Academic / Assignment Submissions
+Dokumen/
+TrioMaut_FinalProject_COMP6696001/
+*.docx
+*RCQuestion*
+*LINKS*
+*Draft*
+*.pdf
+!docs/*.pdf
