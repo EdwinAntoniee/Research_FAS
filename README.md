@@ -128,14 +128,21 @@ Our research benchmarked three lightweight, edge-compatible architectures on **P
 
 ## 👨‍💻 My Roles & Contributions
 
-As the **Team Leader**, I supervised the entire research lifecycle, managed technical code quality, and directed the construction of the scientific paper:
+As the **Team Leader**, I supervised the entire research lifecycle, managed technical code quality, and directed the construction of the scientific paper under the mentorship of our university lecturer:
 
-### 1. Technical Leadership & Codebase Supervision
+### 1. Dataset Acquisition & Institutional Licensing
+- Took the initiative to identify the internationally recognized **OULU-NPU** mobile presentation attack dataset as the optimal evaluation benchmark for real-world lighting variations.
+- Formally contacted and corresponded with the **University of Oulu (CMVS, Finland)** to secure official academic permission and the End User License Agreement (EULA) required for our research experiments.
+
+### 2. Lecturer Mentorship & Research Supervision
+- Collaborated closely under the continuous guidance of our university lecturer, translating theoretical academic research principles into disciplined, reproducible experimental methodology.
 - Directed the technical design of the two-stage biometric verification architecture, establishing the boundaries between liveness evaluation and identity matching.
+
+### 3. Codebase Auditing & Pipeline Refactoring
 - Audited the software pipeline to identify and correct architectural oversights—specifically resolving an issue where the team's initial testing script bypassed the anti-spoofing model entirely.
 - Refactored the monolithic training and inference scripts into modular, production-grade components with proper parameterization, exception handling, and real-time HUD telemetry.
 
-### 2. Research Paper Architecture & Writing
+### 4. Research Paper Architecture & Writing
 - Led the conceptualization, structuring, and writing of the formal research paper: authored the **Methodology**, **System Implementation**, **Experimental Results**, and **Discussion** sections.
 - Formulated the experimental setup comparing ShuffleNetV2, MobileNetV2, and EfficientNet-B0 under the OULU-NPU Protocol 4 benchmark.
 - Analyzed and articulated the empirical trade-offs between model parameter scale, overfitting risks, and edge deployment feasibility.
